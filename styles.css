@@ -1,0 +1,85 @@
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+li {
+    display: inline;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.left{
+    color: black;
+    float: left;
+    padding: 10px;
+}
+.right{
+    color: black;
+    float: right;
+    padding: 10px;
+}
+.apps{
+    width: 30px;
+    height: 30px;
+    float: right;
+    padding: 5px;
+}
+.user {
+    width: 30px;
+    height: 30px;
+    float: right;
+    border-radius: 50%;
+    padding: 5px;
+}
+.logo{
+    position: relative;
+    top: 150px;
+    display: block;
+    margin: 10px auto 20px;
+    
+}
+.input{
+    position: relative;
+    top: 175px;
+    display: block;
+    margin: 10px auto 20px;
+}
+.button{
+    position: relative;
+    top: 190px;
+    left: 400px; 
+    padding: 5px;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    height: 46px;
+    padding: 0 20px 0 20px;
+    align-items: center;
+    align-content: center;
+    position: fixed;
+    bottom: 0px;
+}
+.bottomleft{
+    float: left;
+    color: black;
+    padding: 10px;
+    margin-left: 35px;
+
+}
+.bottomright{
+    float: right;
+    color: black;
+    padding: 10px;
+    margin-right: 35px;
+}
